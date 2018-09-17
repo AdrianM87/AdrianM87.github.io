@@ -1,0 +1,49 @@
+# Site settings
+title_left    : "Adrian"
+title_right   : "Manoliu" # default: ""
+description   : "On the Web."
+keywords      : "testing, adrian manoliu"
+url           :  # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
+
+google_analytics  : UA-XXXXX-XX
+twitter_username  : ""
+comments_enabled  : false # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : ""
+postshare_enabled : false
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source      : ./
+destination : ./_site
+
+# Sass configuration
+sass:
+  sass_dir  : assets/scss
+  style     : compressed # expanded
+
+# Author settings
+author:
+  name     : "Adrian Manoliu"
+
+plugins_dir:
+  - jekyll-sitemap
+  - bourbon
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll/tagging
+  - jekyll-livereload
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script"]
+categories: ['notes', 'bookmarks', 'hobby']
