@@ -1,0 +1,21 @@
+
+<nav class="nav">
+  <div class="container">
+    <h1 class="logo"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">{{ site.title_left }}<span>{{ site.title_right }}</span></a></h1>
+    <ul class="navbar">
+      <li><a href="{{ '/notes' | prepend: site.baseurl | prepend: site.url }}">Notes</a></li>
+      <li><a href="{{ '/hobby' | prepend: site.baseurl | prepend: site.url }}">Hobby</a></li>
+      <li><a href="{{ '/bookmarks' | prepend: site.baseurl | prepend: site.url }}">Bookmarks</a></li>
+      <li><a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About me</a></li>
+      <li><img id="searchTrigger" src="/assets/images/magnifier.svg" alt="Search" width="20"></li>
+      <!-- <li><a href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" target="_blank">RSS</a></li> -->
+    </ul>
+    <div id="searchForm" class="d-none">
+      <form action="javascript:;">
+        <input type="text" id="searchInput">
+        <input type="submit" id="searchSubmit" value="Search">
+      </form>
+      <ul class="search-results"></ul>
+    </div>
+  </div>
+</nav>
