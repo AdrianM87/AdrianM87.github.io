@@ -9,25 +9,24 @@ permalink: /about/
     <img src="/assets/images/adi.jpeg" />
 
     <div class="socials">
-      <a href="https://www.linkedin.com/in/adrian-manoliu-58424786/" target="_blank"><i class="fa fa-linkedin"></i></a>
-     -- <a href="https://twitter.com/rubedzal" target="_blank"><i class="fa fa-twitter"></i></a>
-     -- <a href="{{site_url}}/alex-okros.html" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
+      <a href="https://www.linkedin.com/in/adrian-manoliu-58424786/" target="_blank"><i class="fa fa-linkedin"></i></a>      
+      <a href="{{site_url}}/alex-okros.html" target="_blank"><i class="fa fa-file-pdf-o"></i></a>
     </div>
   </div>
 
   <div class="right">
-    <p>My name is Adrian Manoliu.
+    <p>My name is Adrian Manoliu.</p>
 
-I’m a QA Automation Tester in Romania.
+<p>I’m a QA Automation Tester in Romania.</p>
 
-I started to test apps on 2011.
+<p>I started to test apps on 2011.</p>
 
-I have interest in Automation Testing, Testing Methodologies, Continuous Delivery/Continuous Integration, among others.
+<p>I have interest in Automation Testing, Testing Methodologies, Continuous Delivery/Continuous Integration, among others.</p>
 
-This is my personal blog, that born of my desire to give something back to the community.
+<p>This is my personal blog, that born of my desire to give something back to the community.</p>
 
-Here you can find some of my experience & thoughts.
+<p>Here you can find some of my experience & thoughts.</p>
 
-Please note, that the opinions expressed here are my own.</p>
+<p>Please note, that the opinions expressed here are my own.</p>
   </div>
 </div>
