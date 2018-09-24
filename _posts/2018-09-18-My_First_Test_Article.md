@@ -29,3 +29,6 @@ class Program
 
 <div class="video-container"><iframe src="https://www.youtube.com/watch?v=CglhQzAIOvE" frameborder="0" allowfullscreen></iframe></div>
 
+### Image
+
+![Minion](http://octodex.github.com/images/minion.png)
