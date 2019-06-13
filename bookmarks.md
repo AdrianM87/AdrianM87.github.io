@@ -23,3 +23,5 @@ permalink: /bookmarks/
  
  [Selenium and what is not](https://www.ontestautomation.com/selenium-and-what-it-is-not/)
  
+ [Interface testing and what is it](https://www.softwaretestinghelp.com/what-is-interface-testing/)
+ 
