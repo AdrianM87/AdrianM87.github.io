@@ -19,3 +19,7 @@ permalink: /bookmarks/
  
  [Katalon Recorder (Selenium IDE for Chrome)](https://www.katalon.com/resources-center/blog/katalon-automation-recorder/)
  
+ [ANTI-PATTERN: CROSS BROWSER CHECKING](https://www.mwtestconsultancy.co.uk/cross-browser-checking-anti-pattern/)
+ 
+ [Selenium and what is not](https://www.ontestautomation.com/selenium-and-what-it-is-not/)
+ 
